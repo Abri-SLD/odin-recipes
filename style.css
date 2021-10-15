@@ -20,10 +20,10 @@ a {
 #contents {
     margin-top: 10rem;
     height: 200px;
-    border: 5px solid rgb(44, 206, 98);
+    border: 5px solid rgb(113, 214, 147);
     text-align: left;
     border-radius: 15px;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, rgb(171, 130, 236), rgb(153, 134, 133));
 }
 
 h1 {
@@ -35,4 +35,14 @@ h1 {
 body {
     background: linear-gradient(180deg, #8a8383, #e9cf7c);
     height: 100vh;
+}
+
+a:hover {
+    border: 1px solid rgb(72, 240, 30);
+    border-radius: 30px;
+    color: rgb(8, 7, 8);
+    background-color: rgba(111, 38, 207, 0.3);
+    text-decoration: none;
+    font-size: 33px;
+    
 }
